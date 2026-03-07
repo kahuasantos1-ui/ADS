@@ -52,20 +52,24 @@
 }
 
 
-
 body {
     background: #2a1a0e ; 
     color: #fff5e6;      /* cor do texto creme */
     font-family: sans-serif;
-    }
+}
+
+header {
+    height: 100vh;
+    background-color: red;
+}
 
 .logo {
-    font-family: 'bebas neue', sans-serif;
-    letter-spacing: 3px;
-    font-size: 3rem;
-    color: #ff3e6c;  
-    font-weight: bold;
-    }
+font-family: 'bebas neue', sans-serif;
+letter-spacing: 3px;
+font-size: 3rem;
+color: #ff3e6c;  
+font-weight: bold;
+}
 
     .logo span { color: var(--branco-creme); }
 
