@@ -1,0 +1,52 @@
+/* Reset de todos os elementos */
+* {
+  margin: 0; /* Remove qualquer margem padrão dos elementos */
+  padding: 0; /* Remove qualquer preenchimento interno dos elementos */
+  box-sizing: border-box; /* Faz com que o tamanho dos elementos inclua borda e padding */
+  outline: none;
+  font-family: sans-serif; /* Aplica fonte sans-serif em toda a página */
+}
+
+/* Define altura total da página e fonte padrão */
+html,
+body {
+  height: 100%; /* Faz a página ocupar toda a altura da tela */
+  -webkit-font-smoothing: antialiased; /* Deixar textos mais suaves */
+}
+
+/* Limpa formatação de listas */
+ul,
+ol {
+  list-style: none; /* Remove marcadores de lista */
+}
+
+/* Simplifica links */
+a {
+  text-decoration: none; /* Remove sublinhado */
+  color: inherit; /* Herda a cor do texto pai */
+}
+
+/* Ajusta imagens responsivamente */
+img {
+  max-width: 100%; /* Limita largura ao contêiner pai */
+  height: auto; /* Mantém proporção original */
+}
+
+/* Limpa estilo de elementos de formulário */
+button,
+input,
+select,
+textarea {
+  appearance: none; /* Remove caracteristicas padrões de alguns inputs */
+  background: transparent; /* Remove fundo */
+  border: none; /* Remove bordas */
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Ajusta citações */
+blockquote {
+  quotes: none; /* Remove aspas automáticas */
+}

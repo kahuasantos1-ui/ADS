@@ -1,0 +1,49 @@
+@import url("reset.css");
+@import url("variables.css");
+
+h1 {
+  font-size: var(--text-5xl);
+}
+
+h2 {
+  font-size: var(--text-3xl);
+}
+
+p {
+  font-size: var(--text-xl);
+}
+
+li {
+  font-size: var(--text-xl);
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-light);
+}
+
+header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary);
+  padding-block: var(--space-6);
+  padding-inline: var(--space-7);
+
+  & nav {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-8);
+
+    & ul {
+      display: contents;
+    }
+  }
+}
